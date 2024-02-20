@@ -1,0 +1,50 @@
+.employeesTable{
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    height: 300px;
+    border-radius: 0px 0px 7px 7px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.employeesTable td, th{
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 10px;
+}
+.tableTitle{
+    color: gray;
+    height: 50px;
+    text-align: center;
+}
+.num{
+    color: gray;
+    width: 50px;
+    text-align: center;
+}
+.view{
+    background-color: #2E5D87;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-size: 25px;
+}
+.delete{
+    background-color: #FC3A3A;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+}
+.tableCaption{
+    background-color: white;
+    color: gray;
+    padding: 15px;
+    border-top: 5px solid #739AF0;
+    border-radius: 7px 7px 0px 0px;
+}
