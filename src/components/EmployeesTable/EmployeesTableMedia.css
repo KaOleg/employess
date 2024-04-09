@@ -1,0 +1,9 @@
+@media (max-width: 425px) {
+    .employeesTable{
+        display: block;
+        overflow-x: scroll;
+    }
+    .employees{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,21 @@
+.employeeMenuCard{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(48, 1, 48);
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px
+}
+.employeeMenuCards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}

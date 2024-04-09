@@ -13,7 +13,7 @@ body {
 }
 .employees {
     color: white;
-    font-size: 64px;
+    font-size: 40px;
     margin-top: 55px;
 }
 .search {
@@ -25,11 +25,6 @@ body {
     font-size: 21px;
     margin-top: 30px;
     border: solid 1px gray;
-}
-
-.searchIcon {
-}
-.twoIcons {
 }
 .content {
     margin-left: calc(15% + 51px);
@@ -61,4 +56,54 @@ body {
 .notFound img{
     width: 200px;
     margin-top: 25%;
+}
+.add-form{
+    background-color: white;
+    margin-top: 25px;
+    padding: 35px 25px 100px 25px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.329);
+    text-align: right;
+}
+.add-form input{
+    width: 100%;
+    padding: 10px 25px;
+    outline: none;
+    border: 1px solid #2e5d87;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 21px;
+}
+.add-form button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #7AB929;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 21px;
+}
+.add-form input.error{
+    border-color: red;
+
+}
+.error-message{
+    background-color: red;
+    color: white;
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    visibility: hidden;
+
+}
+.add-form input.error + span{
+    visibility: visible;
+}
+.add-form button:disabled{
+    background-color: darkgrey;
+    
+}
+.card{
+    max-width: 30px;
 }
